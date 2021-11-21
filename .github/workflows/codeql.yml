@@ -1,6 +1,6 @@
 name: "CodeQL action"
 
-on:
+on: workflow_dispatch
   push:
     branches: [main, v1]
   pull_request:
